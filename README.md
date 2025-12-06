@@ -48,10 +48,10 @@ The architecture consists of four Virtual Machines simulating the Core Network, 
 Follow these steps to build the necessary components on their respective VMs.
 
 The following guides and documentation were used as the basis for this deployment:
-- Open5GS v2.7.6 (30.11.2025) - https://open5gs.org/open5gs/docs/guide/02-building-open5gs-from-sources/
-- Open5GS WebUI - https://open5gs.org/open5gs/docs/guide/01-quickstart/ and https://github.com/s5uishida/open5gs_install_mongodb_webui
-- srsRAN Project (RAN) v25.04 (07.07.2025) - https://github.com/s5uishida/build_srsran_5g_zmq
-- srsRAN 4G (UE) (22.10.2025) - https://github.com/s5uishida/build_srsran_4g_zmq_disable_rf_plugins
+- Open5GS v2.7.6 (30.11.2025) - [Documentation](https://open5gs.org/open5gs/docs/guide/02-building-open5gs-from-sources/), [Open5GS v2.7.6](https://github.com/open5gs/open5gs/releases/tag/v2.7.6)
+- Open5GS WebUI - [Documentation](https://open5gs.org/open5gs/docs/guide/01-quickstart/), [Guide](https://github.com/s5uishida/open5gs_install_mongodb_webui)
+- srsRAN Project (RAN) v25.04 (07.07.2025) - [Guide](https://github.com/s5uishida/build_srsran_5g_zmq), [srsRAN Project 25.04](https://github.com/srsran/srsRAN_Project/releases/tag/release_25_04)
+- srsRAN 4G (UE) (22.10.2025) - [Guide](https://github.com/s5uishida/build_srsran_4g_zmq_disable_rf_plugins), [srsRAN 4G](https://github.com/srsran/srsRAN_4G/)
 
 ### 2.1 Open5GS (C-Plane & U-Plane)
 
