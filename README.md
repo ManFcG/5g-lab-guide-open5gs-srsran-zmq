@@ -497,9 +497,14 @@ PDU Session Establishment successful. IP: 10.45.0.2
 RRC NR reconfiguration successful.
 ````
 
----
+## 5. Known Issues
 
-## 5. Acknowledgements
+### AVX Instruction Support
+Virtual Machines require access to AVX CPU instructions for successful compilation and execution. Without AVX support, you may encounter errors or compilation failures.
+
+> **Proxmox:** Set **Processor Type** to `host` in VM hardware settings.
+
+## 6. Acknowledgements
 
 This guide is based on the excellent work by **s5uishida**.
 - Original Guide: [build_srsran_5g_zmq](https://github.com/s5uishida/build_srsran_5g_zmq)
