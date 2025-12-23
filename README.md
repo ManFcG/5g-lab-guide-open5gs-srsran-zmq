@@ -87,6 +87,7 @@ git clone https://github.com/open5gs/open5gs
 cd open5gs
 meson build --prefix=`pwd`/install
 ninja -C build
+ninja -C build install
 ```
 
 **Install Open5GS WebUI:**
